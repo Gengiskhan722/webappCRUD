@@ -1,0 +1,127 @@
+.wrapper{
+    height: 118vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    background-color: rgba(255, 255, 255, 0.779);
+    background-image: url("/assets/images/fondo-registro.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-registro{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.header-registro{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(70, 163, 216);
+}
+.title{
+    font-size: 28px;
+    font-family: Nexa-Bold;
+    text-align: center;
+    opacity: 1;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.icon-back{
+    padding-left: 0rem;
+    color: rgb(0, 0, 0);
+    font-size: 28pt;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.icon-forward{
+    padding-right: 1.5rem;
+    color: rgb(0, 0, 0);
+    font-size: 28pt;
+    width: 40px;
+    height: 40px;
+}
+.body-registro{
+    width: 60%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 1.5rem;
+    gap: 1.5rem;
+}
+.section-buttons{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    padding-bottom: 3rem;
+}
+.btn_primary{
+    width: 208px;
+    height: 48px;
+    background-color: rgb(59, 59, 206);
+    border-color: rgb(31, 74, 149);
+    border-radius:8px;
+    opacity: 1;
+    text-align: center;
+    font-family: Nexa-Bold;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0px;
+    color: white;
+    opacity: 1;
+}
+.btn_primary:hover{
+    background-color: rgb(31, 31, 105);
+    border-color: rgb(147, 75, 215);
+}
+
+.btn_danger{
+    width: 208px;
+    height: 48px;
+}
+
+mat-form-field{
+    width: 100%!important;
+    height: 48px!important;
+    text-align: left!important;
+}
+
+//Verificar todos estos modulos de estilos no funcionan!!!!!
+::ng-deep .mat-focused .mat-form-field-label {
+    text-align: left;
+    font-family: Nexa!important;
+    font-size: 13px;
+    letter-spacing: 0px;
+    color: #2bc006;
+    opacity: 1;
+}
+::ng-deep .mat-input-element{
+    text-align: left;
+    font-family: Nexa;
+    font-size: 16px;
+    letter-spacing: 0px;
+    opacity: 0.6;
+    color: rgb(42, 244, 10) !important;
+}
+::ng-deep .mat-form-field-appearance-outline.mat-focused .mat-form-field-outline{
+    color: rgb(218, 3, 3);
+    background-color: rgb(209, 18, 18);
+}
+::ng-deep .mat-form-field-appearance-outline.mat-focused .mat-form-field-appearance-outline-thick{
+    color: rgb(201, 23, 23) !important;
+}
